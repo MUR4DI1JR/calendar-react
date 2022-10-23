@@ -1,9 +1,9 @@
 import {IUser} from "../../../models/IUser";
 import {IEvent} from "../../../models/IEvent";
 
-export interface EventTypes {
+export interface EventState {
     guests: IUser[];
-    event: IEvent[];
+    events: IEvent[];
 }
 
 export enum EventActionEnum {
